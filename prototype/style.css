@@ -1,15 +1,155 @@
-body {
-  max-width: 1000px;
-  padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
+html, body {
+  margin:0;
+  padding:0;
 }
 
-div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
-  padding: .5em;
-  margin-bottom: 1em;
+header svg {
+  width: 200px;
+  padding-bottom: 0;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  height: 80px;
+  position: relative;
+  display: inline-block;
 }
+
 header {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 2em;
+  margin: 0 auto;
+  background-color: #001e33;
+}
 
-  color: white;
+nav {
+  display: block;
+  font-family: Roboto, Arial, sans-serif;
+  padding: .5em .0;
+  padding-bottom: 1.5em;
+  margin: 0 auto;
+  margin-top: 0em;
+  margin-bottom: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+    width: 50%;
+    padding-bottom: 0em;
+    padding-top: .25em;
+    margin-bottom: 1em;
+    line-height: 1;
+}
+
+nav a {
+  text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: .75em;
+    font-family: Roboto, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #8ec73e;
+	padding-bottom: 0.25em;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    text-align: center;
+  }
+  header svg {
+    width: 225px;
+    margin-bottom: 1.5em;
+    padding-bottom: 0;
+    margin-top: 1.5em;
+    height: 90px;
+  }
+  nav {
+    padding: .5em;
+    max-width: 450px;
+    margin-top: .25em;
+    margin-bottom: 1.5em;
+  }
+  nav li {
+    display: inline;
+		margin-right: 3em;
+  }
+  nav ul {
+    width: auto;
+    justify-content: space-between;
+  }
+  nav ul li {
+    width: inherit;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header {
+  padding-left: 3.25em;
+  }
+  header svg {
+    float: left;
+    margin-bottom: 3em;
+    padding-top: .5em;
+    width: 25%;
+    max-width: 150px;
+    padding-bottom: 0em;
+    height: auto;
+  }
+  nav {
+    border-top: none;
+    margin-top: inherit;
+    margin-bottom: inherit;
+    margin: inherit;
+    padding-right: 0;
+  }
+
+  @media screen and (min-width: 2000px) {
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    header {
+    padding-left: 3.25em;
+    }
+    header svg {
+      float: left;
+      margin-bottom: 3em;
+      padding-top: .5em;
+      width: 25%;
+      max-width: 150px;
+      padding-bottom: 0em;
+      height: auto;
+    }
+    nav {
+      border-top: none;
+      margin-top: inherit;
+      margin-bottom: inherit;
+      margin: inherit;
+      padding-right: 0;
+    }
+  }
+
+
+* {
+  box-sizing: border-box;
 }
