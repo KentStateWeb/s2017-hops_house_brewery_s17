@@ -3,6 +3,7 @@ html, body {
   padding:0;
 }
 
+/* Header */
 header svg {
   width: 200px;
   padding-bottom: 0;
@@ -53,7 +54,7 @@ nav ul li {
 }
 
 nav a {
-  text-decoration: none;
+    text-decoration: none;
     color: white;
     letter-spacing: 2px;
     font-size: .75em;
@@ -65,6 +66,40 @@ nav a:hover {
   border-bottom: 2px solid #8ec73e;
 	padding-bottom: 0.25em;
 }
+/* End Header */
+
+/* Hero Images */
+/* End Hero Images */
+
+/* Main */
+/* End Main */
+
+/* Footer */
+footer {
+  background-color: #8ec73e;
+  padding: 1em 5em 1.5em 5em;
+}
+.footer-content {
+  text-align: center;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 0.50em;
+  line-height: 1.6;
+  min-width: 325px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+footer ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+/* End Footer */
+
+
 
 @media screen and (min-width: 600px) {
   header {
@@ -85,10 +120,11 @@ nav a:hover {
   }
   nav li {
     display: inline;
-		margin-right: 3em;
+		margin: 0 auto;
   }
   nav ul {
     width: auto;
+    display: flex;
     justify-content: space-between;
   }
   nav ul li {
@@ -97,6 +133,7 @@ nav a:hover {
 }
 
 @media screen and (min-width: 850px) {
+/* Header */
   .header {
     display: flex;
     align-items: center;
@@ -121,33 +158,19 @@ nav a:hover {
     margin: inherit;
     padding-right: 0;
   }
-
-  @media screen and (min-width: 2000px) {
-    .header {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-    }
-    header {
-    padding-left: 3.25em;
-    }
-    header svg {
-      float: left;
-      margin-bottom: 3em;
-      padding-top: .5em;
-      width: 25%;
-      max-width: 150px;
-      padding-bottom: 0em;
-      height: auto;
-    }
-    nav {
-      border-top: none;
-      margin-top: inherit;
-      margin-bottom: inherit;
-      margin: inherit;
-      padding-right: 0;
-    }
+  nav li {
+    display: inline;
+		padding-right: 3.25em;
   }
+  nav ul {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+/* End Header */
+/* Footer */
+/* End Footer */
 
 
 * {
