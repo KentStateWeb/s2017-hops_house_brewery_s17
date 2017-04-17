@@ -87,7 +87,7 @@ footer {
   justify-content: space-around;
   color: white;
   font-size: 0.50em;
-  line-height: 1.6;
+  line-height: 2;
   min-width: 325px;
   max-width: 500px;
   margin: 0 auto;
@@ -95,6 +95,9 @@ footer {
 footer ul {
   list-style-type: none;
   text-align: left;
+}
+.footer-svg {
+  margin-top: 1em;
 }
 
 /* End Footer */
