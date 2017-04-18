@@ -72,6 +72,30 @@ nav a:hover {
 /* End Hero Images */
 
 /* Main */
+h1 {
+  font-family: Bitter, Verdana, serif;
+  color: #fed956;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: Roboto, Arial, sans-serif;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: Bitter, Verdana, serif;
+  font-size: 1em;
+}
+p {
+  font-family: Roboto, Arial, sans-serif;
+  color: #001e33;
+  font-size: 0.75em;
+}
+.search {
+  font-family: Bitter, Verdana, serif;
+  font-size: 1.15em;
+  text-transform: uppercase;
+}
 /* End Main */
 
 /* Footer */
