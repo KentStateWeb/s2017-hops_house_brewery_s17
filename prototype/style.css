@@ -3,13 +3,12 @@ html, body {
   padding:0;
 }
 
-/* Header */
 header svg {
   width: 200px;
-  height: 80px;
   padding-bottom: 0;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  height: 80px;
   position: relative;
   display: inline-block;
 }
@@ -54,7 +53,7 @@ nav ul li {
 }
 
 nav a {
-    text-decoration: none;
+  text-decoration: none;
     color: white;
     letter-spacing: 2px;
     font-size: .75em;
@@ -66,6 +65,7 @@ nav a:hover {
   border-bottom: 2px solid #8ec73e;
 	padding-bottom: 0.25em;
 }
+<<<<<<< Updated upstream
 /* End Header */
 
 /* Hero Images */
@@ -130,6 +130,8 @@ p strong {
 /* End Footer */
 
 
+=======
+>>>>>>> Stashed changes
 
 @media screen and (min-width: 600px) {
   header {
@@ -150,11 +152,10 @@ p strong {
   }
   nav li {
     display: inline;
-		margin: 0 auto;
+		margin-right: 3em;
   }
   nav ul {
     width: auto;
-    display: flex;
     justify-content: space-between;
   }
   nav ul li {
@@ -162,8 +163,29 @@ p strong {
   }
 }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+@media screen and (min-width: 700px) {
+  footer {
+    padding: 1em 0 2em 3.25em;
+  }
+  .footer-content {
+    text-align: left;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 0;
+    font-size: 0.60em;
+  }
+}
+
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 @media screen and (min-width: 850px) {
-/* Header */
   .header {
     display: flex;
     align-items: center;
@@ -174,26 +196,56 @@ p strong {
   }
   header svg {
     float: left;
-    margin-bottom: 2.5em;
-    width: 125px;
+    margin-bottom: 3em;
+    padding-top: .5em;
+    width: 25%;
     max-width: 150px;
+    padding-bottom: 0em;
     height: auto;
   }
   nav {
+    border-top: none;
     margin-top: inherit;
     margin-bottom: inherit;
     margin: inherit;
     padding-right: 0;
   }
-  nav li {
-    display: inline;
-		padding-right: 3.25em;
+
+  @media screen and (min-width: 2000px) {
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    header {
+    padding-left: 3.25em;
+    }
+    header svg {
+      float: left;
+      margin-bottom: 3em;
+      padding-top: .5em;
+      width: 25%;
+      max-width: 150px;
+      padding-bottom: 0em;
+      height: auto;
+    }
+    nav {
+      border-top: none;
+      margin-top: inherit;
+      margin-bottom: inherit;
+      margin: inherit;
+      padding-right: 0;
+    }
   }
-  nav ul {
-    width: auto;
-    display: flex;
-    justify-content: space-between;
+
+  h1 {
+
+  font-family: Bitter;
+  color: fed956;
+  font-weight: bold;
+
   }
+<<<<<<< Updated upstream
 /* End Header */
 /* Footer */
 .footer-content {
@@ -203,7 +255,36 @@ p strong {
   font-size: 0.75em;
 }
 /* End Footer */
+=======
+
+  h3 {
+    font-family:
+    color: white;
+  }
+
+.list_ul {
+
+  font-family: Bitter;
+  color: 001e33;
+  font-size: 1em;
 }
+
+footer {
+
+  font-family: Sanchez;
+  color: white;
+
+}
+
+p {
+
+  font-family: Sanchez;
+  color: 001e33;
+  font-size: 1em;
+>>>>>>> Stashed changes
+}
+
+
 
 
 * {
