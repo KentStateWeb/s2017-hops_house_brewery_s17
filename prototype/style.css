@@ -81,10 +81,22 @@ h1 {
 h2 {
   font-family: Roboto, Arial, sans-serif;
   text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1.2em;
 }
 h3 {
   font-family: Bitter, Verdana, serif;
   font-size: 1em;
+  color: #001e33;
+  text-transform: uppercase;
+}
+h4 {
+  color: #001e33;
+  text-transform: uppercase;
+}
+.hh-rooms {
+  text-transform: uppercase;
+  color: #fed956;
 }
 p {
   font-family: Roboto, Arial, sans-serif;
@@ -95,6 +107,16 @@ p {
   font-family: Bitter, Verdana, serif;
   font-size: 1.15em;
   text-transform: uppercase;
+}
+.home-image {
+  width: 100px;
+}
+.brews li {
+  font-family: Bitter, Verdana, serif;
+  font-size: 0.75em;
+}
+.events {
+  color: #fed956;
 }
 /* End Main */
 
@@ -150,12 +172,12 @@ p strong {
   letter-spacing: 0.25em;
 }
 /* End Mobile Hide */
-
 /* End Footer */
 
 
 
 @media screen and (min-width: 600px) {
+/* Header */
   header {
     text-align: center;
   }
@@ -185,6 +207,7 @@ p strong {
     width: inherit;
   }
 }
+/* End Header */
 
 @media screen and (min-width: 850px) {
 /* Header */
