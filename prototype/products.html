@@ -16,13 +16,13 @@
        <!-- The page content goes here -->
        <header>
         <div class="header">
-          <img class="hh-color" src="../images/HoppsHouse-mark.svg">
+          <a href="../prototype/index.html"> <img class="hh-color" src="../images/HoppsHouse-mark.svg"> </a>
          <nav class="main">
             <ul>
-                <li><a href="#">Brews</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Contact</a></li>
+              <li><a href="../prototype/products.html"> Brews </a></li>
+              <li><a href="../prototype/about.html"> About </a></li>
+              <li><a href="#"> Events </a></li>
+              <li><a href="#"> Contact </a></li>
             </ul>
         </nav>
       </div>
@@ -36,69 +36,165 @@
          <main>
          <section class="search">
            <form>
-           <p class="search"> Find a Brew </p>
+           <label class="search"> Find a Brew </label>
            <input type="search" name="search" placeholder="Search"/>
          </form>
         </section>
         </div>
-       <section class="brews">
-         <section class="all">
-         <h2> All </h2>
-         <ul>
-           <li> Frogtown IPA </li>
-           <li> Honeywagon IPA </li>
-           <li> Little Turtle IPA </li>
-           <li> Moweizen </li>
-           <li> Wally Post RED </li>
-           <li> Marzen Oktoberfest </li>
-           <li> Black Bridge Smoked Porter </li>
-           <li> Buzzards Glory </li>
-           <li> OH Helles </li>
-           <li> Blackberry Prairie Wheat </li>
-           <li> Burbank Blonde </li>
-           <li> Baked Oatmeal Stout </li>
-           <li> Steineman Station Saison </li>
-           <li> Pumpkin Farmhouse </li>
-           <li> Dunkel Weizen </li>
-           <li> Saison's Greetings </li>
-           <li> Sawcreek Mosaic </li>
-           <li> Sawcreek Pale </li>
-         </ul>
-         </section>
-         <section class="yearround">
-           <h2> Year-round </h2>
-           <ul>
-             <li> Frogtown IPA </li>
-             <li> Honeywagon IPA </li>
-             <li> Little Turtle IPA </li>
-             <li> Moweizen </li>
-             <li> Wally Post RED </li>
-             <li> Marzen Oktoberfest </li>
-             <li> Black Bridge Smoked Porter </li>
-             <li> Buzzards Glory </li>
-             <li> OH Helles </li>
-             <li> Blackberry Prairie Wheat </li>
-             <li> Burbank Blonde </li>
-             <li> Baked Oatmeal Stout </li>
-             <li> Steineman Station Saison </li>
-           </ul>
-         </section>
-         <section class="monthlyspecials">
-           <h2> Monthly Specials </h2>
-           <ul>
-             <li> Pumpkin Farmhouse </li>
-             <li> Dunkel Weizen </li>
-           </ul>
-         </section>
-         <section class="seasonal">
-           <h2> Seasonal </h2>
-           <ul>
-             <li> Saison's Greetings **Out of Season** </li>
-             <li> Sawcreek Mosaic **Out of Season** </li>
-             <li> Sawcreek Pale **Out of Season** </li>
-           </ul>
-         </section>
-       </section>
+       <div class="js-tab-widget">
+         <ul class="tab-list">
+      <li class="tab-item">
+        <a class="tab-link" href="#tab-1"> All </a>
+      </li>
+      <li class="tab-item">
+        <a class="tab-link" href="#tab-2"> Year-Round </a>
+      </li>
+      <li class="tab-item">
+        <a class="tab-link" href="#tab-3"> Seasonal </a>
+      </li>
+      <li class="tab-item">
+        <a class="tab-link" href="#tab-4"> Monthly Specials </a>
+      </li>
+    </ul>
+    <div class="accordion-grid">
+      <section id="tab-1" class="tab-panel">
+        <figure>
+          <img src="../images/baked-oatmeal-stout.png" alt="Baked Oatmeal Stout">
+          <figcaption> Baked Oatmeal Stout </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/black-bridge-smoked-porter.png" alt="Black Bridge Smoked Porter">
+          <figcaption> Black Bridge Smoked Porter </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/blackberry-praire-wheat.png" alt="Blackberry Praire Wheat">
+          <figcaption> Blackberry Praire Wheat </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/burbank-blonde.png" alt="Burbank Blonde">
+          <figcaption> Burbank Blonde </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/buzzards-glory.png" alt="Buzzards Glory">
+          <figcaption> Buzzards Glory </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/frogtown-ipa.png" alt="Frogtown IPA">
+          <figcaption> Frogtown IPA </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/honeywagon-ipa.png" alt="Honeywagon IPA">
+          <figcaption> Honeywagon IPA </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/little-turtle-ipa.png" alt="Little Turtle IPA">
+          <figcaption> Little Turtle IPA </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/marzen-oktoberfest.png" alt="Marzen Oktoberfest">
+          <figcaption> Marzen Oktoberfest </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/moweizen.png" alt="Moweizen">
+          <figcaption> Moweizen </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/oh-helles.png" alt="Oh Helles">
+          <figcaption> Oh Helles </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/wally-post-red.png" alt="Wally Post RED">
+          <figcaption> Wally Post RED </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/saisons-greetings.png" alt="Saison's Greetings">
+          <figcaption> Saison's Greetings </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/sawcreek-mosaic.png" alt="Sawcreek Mosaic">
+          <figcaption> Sawcreek Mosaic </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/dunkel-weizen.png" alt="Dunkel Weizen">
+          <figcaption> Dunkel Weizen </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/pumpkin-farmhouse.png" alt="Pumpkin Farmhouse">
+          <figcaption> Pumpkin Farmhouse </figcaption>
+        </figure>
+      </section>
+      <section id="tab-2" class="tab-panel">
+        <figure>
+          <img src="../images/baked-oatmeal-stout.png" alt="Baked Oatmeal Stout">
+          <figcaption> Baked Oatmeal Stout </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/black-bridge-smoked-porter.png" alt="Black Bridge Smoked Porter">
+          <figcaption> Black Bridge Smoked Porter </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/blackberry-praire-wheat.png" alt="Blackberry Praire Wheat">
+          <figcaption> Blackberry Praire Wheat </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/burbank-blonde.png" alt="Burbank Blonde">
+          <figcaption> Burbank Blonde </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/buzzards-glory.png" alt="Buzzards Glory">
+          <figcaption> Buzzards Glory </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/frogtown-ipa.png" alt="Frogtown IPA">
+          <figcaption> Frogtown IPA </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/honeywagon-ipa.png" alt="Honeywagon IPA">
+          <figcaption> Honeywagon IPA </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/little-turtle-ipa.png" alt="Little Turtle IPA">
+          <figcaption> Little Turtle IPA </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/marzen-oktoberfest.png" alt="Marzen Oktoberfest">
+          <figcaption> Marzen Oktoberfest </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/moweizen.png" alt="Moweizen">
+          <figcaption> Moweizen </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/oh-helles.png" alt="Oh Helles">
+          <figcaption> Oh Helles </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/wally-post-red.png" alt="Wally Post RED">
+          <figcaption> Wally Post RED </figcaption>
+        </figure>
+      </section>
+      <section id="tab-3" class="tab-panel">
+        <figure>
+          <img src="../images/saisons-greetings.png" alt="Saison's Greetings">
+          <figcaption> Saison's Greetings </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/sawcreek-mosaic.png" alt="Sawcreek Mosaic">
+          <figcaption> Sawcreek Mosaic </figcaption>
+        </figure>
+      </section>
+      <section id="tab-4" class="tab-panel">
+        <figure>
+          <img src="../images/dunkel-weizen.png" alt="Dunkel Weizen">
+          <figcaption> Dunkel Weizen </figcaption>
+        </figure>
+        <figure>
+          <img src="../images/pumpkin-farmhouse.png" alt="Pumpkin Farmhouse">
+          <figcaption> Pumpkin Farmhouse </figcaption>
+        </figure>
+      </section>
+      <div>
+     </div>
      </main>
      <footer>
        <div class="footer-content">
@@ -166,5 +262,6 @@
      </footer>
 
       <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
+      <script src="scripts.js"></script>
   </body>
 </html>
