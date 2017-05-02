@@ -72,7 +72,7 @@ nav a:hover {
 /* End Header */
 
 h1 {
-  font-family: Bitter, Verdana, serif;
+  font-family: Bitter, Georgia, serif;
   color: #fed956;
   font-size: 2em;
   text-transform: uppercase;
@@ -87,7 +87,7 @@ h2 {
   font-size: 1.2em;
 }
 h3 {
-  font-family: Bitter, Verdana, serif;
+  font-family: Bitter, Georgia, serif;
   font-size: 1em;
   color: #001e33;
   text-transform: uppercase;
@@ -110,7 +110,7 @@ p {
   font-size: 0.85em;
 }
 .search {
-  font-family: Bitter, Verdana, serif;
+  font-family: Bitter, Georgia, serif;
   font-size: 1.15em;
   text-transform: uppercase;
 }
@@ -118,7 +118,7 @@ p {
   width: 200px;
 }
 .brews li {
-  font-family: Bitter, Verdana, serif;
+  font-family: Bitter, Georgia, serif;
   font-size: 0.85em;
 }
 
