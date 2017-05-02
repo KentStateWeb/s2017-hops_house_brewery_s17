@@ -9,6 +9,20 @@ section {
 img {
   max-width: 100%
 }
+#skip-to-content {
+  padding: 1em;
+  position: absolute;
+  top: -40px;
+  left: 1em;
+  z-index: 1000;
+  color: white;
+}
+
+#skip-to-content:focus {
+  position: absolute;
+  top: 0;
+  background: #4593ff;
+}
 
 /* Header */
 .hh-color {
@@ -65,7 +79,7 @@ nav a {
     text-transform: uppercase;
 }
 
-nav a:hover {
+nav a:hover, nav a:focus {
   border-bottom: 2px solid #8ec73e;
 	padding-bottom: 0.25em;
 }
@@ -351,7 +365,7 @@ color: #001e33 !important;
   padding: 2em 1em 2em 1em;
 }
 
-.tab-panel img:hover {
+.tab-panel img:hover, .tab-panel img:focus {
   background: #8ec73e; /* Old browsers */
   background: -moz-linear-gradient(top, #8ec73e 0%, #8ec73e 69%, #ffffff 69%, #ffffff 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #8ec73e 0%,#8ec73e 69%,#ffffff 69%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
